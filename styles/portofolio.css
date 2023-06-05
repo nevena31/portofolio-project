@@ -55,7 +55,7 @@ p {
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
 
@@ -91,9 +91,14 @@ p {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+  text-decoration: none;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: white;
 }
 
 .btn-branding-outline {
@@ -103,6 +108,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 .project-description {
@@ -182,7 +192,7 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 56px;
+    line-height: 1.5;
   }
 
   h2 {
